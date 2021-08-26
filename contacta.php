@@ -20,7 +20,7 @@
       <a href="Inicio.html" class="btn btn-warning stretched-link">Inicio</a>
       <a href="tiendas.html" class="btn btn-info stretched-link">Tiendas</a>
       <a href="contacta.php" class="btn btn-primary stretched-link">Contáctenos</a>
-      <a href="mensajes.php" class="btn btn-success stretched-link">Ver Mensaje</a>
+      <a href="usuario.html" class="btn btn-success stretched-link">Ver Mensaje</a>
       </div>
   <br><br><br>
   <h1>Contáctenos</h1> 

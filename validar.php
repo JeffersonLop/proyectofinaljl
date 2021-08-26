@@ -3,7 +3,7 @@ $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 
 if ($usuario=="admin" and $contraseña=="admin") {
-    header ("location: Inicio.html");
+    header ("location: mensajes.php");
 }
 else {
     echo '<script language="javascript">';
