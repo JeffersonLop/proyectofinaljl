@@ -28,10 +28,10 @@
     <table class="table table-success table-striped">
   <thead>
     <tr>
-      <th scope="col">Nombre</th>
-      <th scope="col">Telefono</th>
-      <th scope="col">Correo Electronico</th>
-      <th scope="col">Mensaje </th>
+      <th scope="col">Nombre:</th>
+      <th scope="col"><center>Teléfono:</center></th>
+      <th scope="col"><center>Correo Electronico:</center></th>
+      <th scope="col"><center>Mensaje:</center> </th>
     </tr>
 </thead>
 <tbody>

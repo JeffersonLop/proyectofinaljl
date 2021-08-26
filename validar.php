@@ -2,7 +2,7 @@
 $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 
-if ($usuario=="admin" and $contraseña=="admin") {
+if ($usuario=="admin" and $contraseña=="mensajes") {
     header ("location: mensajes.php");
 }
 else {
