@@ -11,16 +11,44 @@
     <link rel="stylesheet" href="diseño.css">
     <hr>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <div class="btn-group w-100" role="group" aria-label="Basic example">
-      <a href="productos.html" class="btn btn-warning stretched-link">Productos/Servicios</a>
-      <a href="tiendas.html" class="btn btn-info stretched-link">Tiendas</a>
-      <a href="contacta.php" class="btn btn-primary stretched-link">Contáctenos</a>
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="height: 45px; width: 180px;">
+     MENÚ
+    </a> 
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><b>BIENVENIDOS</b></h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
+      <div class="offcanvas-body">
+        <div>
+          Esta empresa presenta diferentes servicios de capacitación y diferentes areas de trabajo, si te gustaria trabajar deberás demostrar tu capacidad para ser seleccionado, además contamos con diferentes cursos online para que puedas capacitarte en otros idiomas.
+        </div>
+        <br>
+        <div class="dropdown mt-3">
+          <a href="Inicio.html" role="button" class="btn btn-danger" style="width: 360px;">Inicio</a>
+            </button>
+            </div>
+            <div class="dropdown mt-3">
+              <a href="productos.html" role="button" class="btn btn-warning" style="width: 360px;">Productos</a>
+                </button>
+                </div>
+                <div class="dropdown mt-3">
+                  <a href="tiendas.html" role="button" class="btn btn-info" style="width: 360px;">Tienda</a>
+                  </button>
+                    </div>
+                    <div class="dropdown mt-3">
+                      <a href="mensajes.php" role="button" class="btn btn-success" style="width: 360px;">Mensajes</a>
+                        </button>
+                        </div>
+          </button>
+        </div>
+      </div>
+    </div>
     <br><br><br>
     <h1>Iniciar sesión</h1>
       <center>
         <div class="card" style="width: 19rem;">
-          <img src="img/logo_lcp-removebg-preview.png" class="card-img-top" alt="...">
+          <img src="img/capa.png" class="card-img-top" alt="...">
           <div class="card-body">
           <form action ="validar.php" method="POST">
           <div class="mb-3">
@@ -38,5 +66,16 @@
             </div>
             </div>
             </center>
+            <br></br>
+           
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>PBX:</b> 4298 5897 - <b>Dirección:</b> 20 calle zona 9 San Miguel Petapa</a>
+             <form action="buscar.php" method="GET" class="d-flex">
+            <a class="navbar-brand" href="#"><b>Carnet:</b> 2020-40256 <b>Nombre:</b> Jefferson López</a>
+            </form>
+          </div>
+        </div>
+      </nav>
   </body>
 </html>
